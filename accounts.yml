@@ -1,10 +1,5 @@
-spring:
-  application:
-    name: "configserver"
-
-
   profiles:
-    active: native
+    active: qa
   cloud:
     config:
       server:
@@ -24,4 +19,5 @@ accounts:
     email: "john@eazybank.com"
   onCallSupport:
     - (666) 555-1234
+
     - (666) 523-1345
