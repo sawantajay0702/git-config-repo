@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: "configserver"
+
+
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+#        native:
+ #         search-locations: "classpath:/config"
+       git:
+         uri: "https://github.com/sawantajay0702/git-config-repo.git"
+
+
+build: 
+  version: 2.0.0
+
+accounts:
+  message: "Welcome to EazyBank accounts related local APIs "
+  contactDetails:
+    name: "QA Sam  - Developer"
+    email: "john@eazybank.com"
+  onCallSupport:
+    - (666) 555-1234
+    - (666) 523-1345

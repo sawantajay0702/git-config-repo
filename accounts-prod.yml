@@ -1,0 +1,11 @@
+build: 
+  version: 2.0.0-config
+
+accounts:
+  message: "Welcome to EazyBank accounts related prod APIs "
+  contactDetails:
+    name: "prod Ajay - product owner"
+    email: "john@eazybank.com"
+  onCallSupport:
+    - (777) 555-1234
+    - (777) 523-1345
