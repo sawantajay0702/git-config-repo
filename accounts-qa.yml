@@ -1,6 +1,5 @@
 build: 
   version: 2.0.0-config
-
 accounts:
   message: "Welcome to EazyBank accounts related QA APIs "
   contactDetails:
